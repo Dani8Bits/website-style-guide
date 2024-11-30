@@ -1,0 +1,80 @@
+/* 1. Use a more-intuitive box-sizing model */
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  /* 2. Remove default margin */
+  * {
+    margin: 0;
+   
+  }
+  
+  body {
+    /* 3. Add accessible line-height */
+    line-height: 1.5;
+    /* 4. Improve text rendering */
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  /* 5. Improve media defaults */
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  
+  /* 6. Inherit fonts for form controls */
+  input, button, textarea, select {
+    font: inherit;
+  }
+  
+  /* 7. Avoid text overflows */
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  
+  /* 8. Improve line wrapping */
+  p {
+    text-wrap: pretty;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    text-wrap: balance;
+  }
+  
+  /*
+    9. Create a root stacking context
+  */
+  #root, #__next {
+    isolation: isolate;
+  }
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+/* Reset table styles */
+table {
+  border-collapse: collapse; /* Remove default spacing between table cells */
+  border-spacing: 0;        /* Ensure there's no extra spacing */
+  width: 100%;              /* Set default width to fill parent container */
+  margin: 0;                /* Remove default margin */
+  padding: 0;               /* Remove padding */
+}
+
+th, td {
+  padding: 0;               /* Remove default cell padding */
+  margin: 0;                /* Remove margin for table cells */
+  border: none;             /* Remove any borders */
+  text-align: left;         /* Reset default alignment */
+}
+
+thead, tbody, tfoot {
+  margin: 0;                /* Reset margin */
+  padding: 0;               /* Reset padding */
+}
+
+caption {
+  margin: 0;                /* Remove default margin for captions */
+  padding: 0;               /* Remove default padding */
+  text-align: center;       /* Center the caption text */
+}

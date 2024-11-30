@@ -1,0 +1,560 @@
+/* 1. Base */
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 36px;
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+#logo {
+    font-family: "Press Start 2P", system-ui;
+    font-size: 25px;
+    margin-bottom: 0;
+}
+
+header {
+    display: flex;
+    margin: 2% 10%;
+    align-items: center;
+    gap: 10px;
+}
+
+main {
+    margin: 2% 10%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 2%;
+}
+
+.descriptions {
+    width: 40%;
+    color: #2D2E2F;
+}
+
+/* 1.1 Card */
+
+.card {
+    display: flex;
+    border-radius: 30px;
+    width: 50%;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    flex-direction: column;
+    padding: 20px;
+
+}
+
+.cards-p {
+    font-size: 16px;
+    color: #6B6D6F;
+    width: 80%;
+}
+
+/* 2. Typography */
+.typography-content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+#poppins-title {
+    font-size: 100px;
+    font-weight: 700;
+    background: linear-gradient(90deg, #ff6a00, #ee0979);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin-bottom: 50px;
+    line-height: normal;
+    margin-bottom: 0px;
+}
+
+#open-sans-title {
+    font-size: 100px;
+    font-weight: 700;
+    background: linear-gradient(90deg, #007cf0, #00dfd8);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin-bottom: 50px;
+    line-height: normal;
+    margin-bottom: 0px;
+}
+
+#open-sans-title:hover,
+#poppins-title:hover {
+    opacity: 0.8;
+}
+
+
+
+
+
+/* 3. Platforms */
+
+.card img {
+
+    width: 35px;
+    height: 35px;
+    margin-bottom: 20px
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 7px;
+    text-align: left;
+
+}
+
+.table-heading {
+    font-size: 30px;
+    font-family: "poppins", sans-serif;
+    color: #6B6D6F;
+    font-weight: 400;
+    padding-bottom: 50px;
+    padding-top: 40px;
+}
+
+.table-heading-padding {
+    padding-bottom: 30px;
+}
+
+.table-body-padding {
+    padding-bottom: 20px;
+}
+
+
+/* H1 Style */
+.h1-style {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 36px;
+}
+
+/* H2 Style */
+.h2-style {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+/* H3 Style */
+.h3-style {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.b1-display-bold {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.b1-display-medium {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    /* Assuming medium weight */
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.b1-text-bold {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.b1-text-medium {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+.b1-text-regular {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/* B2 Styles */
+.b2-display-bold {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.b2-display-medium {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    /* Assuming medium weight */
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.b2-text-bold {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.b2-text-semibold {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    /* Semibold */
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.b2-text-regular {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+/* B3 Styles */
+.b3-text-bold {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.b3-text-semibold {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    /* Semibold */
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.b3-text-regular {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    /* Semibold */
+    font-size: 12px;
+    line-height: 16px;
+}
+
+/* B4 Styles */
+.b4-text-bold {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+}
+
+.b4-text-semibold {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    /* Semibold */
+    font-size: 10px;
+    line-height: 12px;
+}
+
+.b4-text-regular {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+}
+
+/* Second table */
+
+/* Specific Row Styles */
+.typography-h1-style td {
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    line-height: 56px;
+}
+
+.typography-h2-style td {
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    line-height: 36px;
+}
+
+.typography-h3-style td {
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.typography-h4-style td {
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+/* Body Row Styles */
+.typography-b1-display-bold td {
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.typography-b1-display-medium td {
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+.typography-b1-text-bold td {
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.typography-b1-text-semibold td {
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.typography-b1-text-regular td {
+    font-weight: normal;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.typography-b2-display-bold td {
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.typography-b2-display-medium td {
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.typography-b2-text-bold td {
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.typography-b2-text-semibold td {
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.typography-b2-text-regular td {
+    font-weight: normal;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.typography-b3-text-bold td {
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.typography-b3-text-semibold td {
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.typography-b3-text-regular td {
+    font-weight: normal;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.typography-b4-text-bold td {
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    line-height: 12px;
+}
+
+.typography-b4-text-semibold td {
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    line-height: 12px;
+}
+
+.typography-b4-text-regular td {
+    font-weight: normal;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    line-height: 12px;
+}
+
+/* 4. Colors */
+
+.colors-grid {
+    display: grid;
+    grid-template-columns: 33% 33% 33%; 
+    grid-template-rows: 350px 350px; 
+    padding-bottom: 30px;
+
+}
+
+.card-color {
+    display: flex;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+ 
+}
+
+.card-color-background{
+    display: flex;
+    border-radius: 30px 30px 0 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.card-color-background h1{
+    margin-bottom: 0px;
+}
+
+.card-color p{
+    margin-bottom: 20px;
+}
+
+.color1{
+    background-color: #FA4D4D;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.color2{
+    background-color: #E7632F;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.color3{
+    background-color: #429F29;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.color4{
+    background-color: #02A06C;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.color5{
+    background-color: #0398BE;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.color6{
+    background-color: #258CFA;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+/* 6. Icons */
+
+
+.icons-grid{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 120px 120px 120px 120px 120px 120px 120px 120px 120px 120px 120px 120px;
+    grid-template-rows: 120px 120px 120px 120px;
+place-items: center;
+}
+
+
+/* 7. Ilustrations */
+
+.ilustrations-content{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    align-items: center;
+}
